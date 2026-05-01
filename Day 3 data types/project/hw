@@ -1,0 +1,16 @@
+a = 52
+
+print("type of a: ", type(a))
+
+b=2.51
+
+print("type of b: ", type(b))
+
+c= "codingal"
+
+print("type of c: ", type(c))
+
+d= False
+
+print("type of d: ", type(d))
+
