@@ -1,0 +1,12 @@
+import random
+running = True
+playingrandomnum = str(random.randint(0,20))
+print("guess my number from 0 to 20")
+while running:
+    usernum = input("enter guess:  ")
+    if playingrandomnum == usernum:
+        print("you Win, the number really was",playingrandomnum)
+        break
+    else:
+        print("WRONG! try again")
+

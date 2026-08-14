@@ -29,4 +29,4 @@ while True: #iterate loop
 #take input for playing again
     play_again = input("Play again? (y/n): ")
     if play_again != "y":
-        break 
+        break

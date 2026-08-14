@@ -1,0 +1,9 @@
+try:
+    x = int(input("what:"))
+    print(x)
+    if x == 9:
+        print("correct")
+    else:
+        print("hell naww")
+except ValueError:
+    print("not a num entered")
